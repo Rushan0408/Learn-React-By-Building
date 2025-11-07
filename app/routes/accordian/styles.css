@@ -1,0 +1,6 @@
+body {
+    background-color: #121212;
+    color: #f5f5f5;
+    background: radial-gradient(circle at bottom right, #3d3d3d, #0f0f0f);
+    font-family: "Inter", "Poppins", system-ui, sans-serif;
+}
