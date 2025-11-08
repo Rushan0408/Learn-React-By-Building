@@ -24,16 +24,16 @@ export default function ColorGenerator() {
     }
 
     return (
-        <body style={{
+        <div className="background min-h-screen w-screen "style={{
             backgroundColor: color,
         }}>
-            <div className="container flex flex-row justify-center border">
-                <button className=" button border" onClick={() => handleSubmitHex()}> Create Hex Color </button>
-                <button className=" button border" onClick={() => handleSubmitRGB()}>  Create RGB Color </button>
-                <button className=" button border" onClick={() => handleSubmitRandom()}> Generate Random </button>
+            <div className="container flex flex-row justify-center w-screen ">
+                <button className="button" onClick={() => handleSubmitHex()}> Create Hex Color </button>
+                <button className="button" onClick={() => handleSubmitRGB()}>  Create RGB Color </button>
+                <button className="button" onClick={() => handleSubmitRandom()}> Generate Random </button>
             </div>
             <div className="min-h-screen w-sceen flex justify-center items-center text-9xl"> {color} </div>    
-        </body>
+        </div>
 
     );
 
