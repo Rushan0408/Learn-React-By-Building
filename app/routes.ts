@@ -5,4 +5,6 @@ export default [
     route("/accordian" , "routes/accordian/Accordian.tsx" ),
     route("/colorgenerator","routes/colorgenerator/ColorGenerator.tsx"),
     route("/starrating","routes/star_rating/StarRating.tsx"),
+    route("/imageslider","routes/imageslider/ImageSlider.tsx"),
+    route("/loadmoredata","routes/loadmoredata/LoadMoreData")
 ] satisfies RouteConfig;
