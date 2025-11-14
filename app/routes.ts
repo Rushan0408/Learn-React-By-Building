@@ -6,5 +6,5 @@ export default [
     route("/colorgenerator","routes/colorgenerator/ColorGenerator.tsx"),
     route("/starrating","routes/star_rating/StarRating.tsx"),
     route("/imageslider","routes/imageslider/ImageSlider.tsx"),
-    route("/loadmoredata","routes/loadmoredata/LoadMoreData")
+    route("/loadmoredata","routes/loadmoredata/LoadMoreData.tsx")
 ] satisfies RouteConfig;

@@ -35,6 +35,13 @@ export default function Home() {
         >
           Image Slider
         </NavLink>
+
+        <NavLink
+          to="/loadmoredata"
+          className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300 w-64 text-center"
+        >
+          Load More Data
+        </NavLink>
         
       </div>
     </div>
