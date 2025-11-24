@@ -11,4 +11,5 @@ export default [
     route("/qrgenerator","routes/qrgenerator/Qrgenerator.tsx"),
     route("/scrollindicator","routes/scrollindicator/ScrollIndicator.tsx"),
     route("/localstorage","routes/localstorage/LocalStorage.tsx"),
+    route("/tabs","routes/tabs/TabsPage.tsx"),
 ] satisfies RouteConfig;

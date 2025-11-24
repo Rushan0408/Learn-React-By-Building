@@ -48,9 +48,9 @@ const ScrollIndicator = () => {
 
     return (<>
         <div className=" flex flex-col fixed top-0 left-0 w-full bg-amber-300 p-2">
-            <div style={{ width: progress + "%" }} className="bg-blue-600 h-6 border"></div>
-            <h1 className="text-3xl text-center">Scroll Indicator</h1>
             
+            <h1 className="text-2xl text-center">Scroll Indicator</h1>
+            <div style={{ width: progress + "%" }} className="bg-blue-600 h-6 border"></div>
         </div>
         <div className="flex flex-col min-h-screen w-screen justify-center items-center mt-20">
             <div>
