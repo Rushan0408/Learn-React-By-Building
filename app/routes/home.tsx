@@ -2,12 +2,12 @@ import { NavLink } from "react-router";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen w-screen bg-gray-900 text-white">
+    <div className="flex flex-col items-center min-h-screen w-screen bg-gray-900 text-white">
       <h1 className="text-5xl mb-12 font-semibold text-center ">
         List of React Projects :
       </h1>
 
-      <div className="flex flex-col items-center gap-6 text-3xl">
+      <div className="flex flex-col gap-6 text-3xl">
         <NavLink
           to="/accordian"
           className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300 w-64 text-center"
@@ -41,6 +41,35 @@ export default function Home() {
           className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300 w-64 text-center"
         >
           Load More Data
+        </NavLink>
+
+        <NavLink
+          to="/treemenu"
+          className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300 w-64 text-center"
+        >
+          Tree Menu
+        </NavLink>
+
+        <NavLink
+          to="/qrgenerator"
+          className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300 w-64 text-center"
+        >
+          QR code Generator
+        </NavLink>
+
+
+        <NavLink
+          to="/localstorage"
+          className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300 w-64 text-center"
+        >
+          Local Storage 
+        </NavLink>
+
+        <NavLink
+          to="/scrollindicator"
+          className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300 w-64 text-center"
+        >
+          Scroll Indicator
         </NavLink>
         
       </div>
