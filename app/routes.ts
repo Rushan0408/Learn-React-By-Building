@@ -12,4 +12,5 @@ export default [
     route("/scrollindicator","routes/scrollindicator/ScrollIndicator.tsx"),
     route("/localstorage","routes/localstorage/LocalStorage.tsx"),
     route("/tabs","routes/tabs/TabsPage.tsx"),
+    route("/modalpopup","routes/modalpopup/ModalPopup.jsx"),
 ] satisfies RouteConfig;
