@@ -7,7 +7,7 @@ export default function Home() {
         Learn By Building React Projects :
       </h1>
 
-      <div className="flex flex-col gap-8 text-3xl ">
+      <div className="flex flex-col gap-8 text-3xl mb-8">
         <NavLink
           to="/accordian"
           className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300 text-center"
@@ -84,6 +84,13 @@ export default function Home() {
           className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300  text-center"
         >
           Modal Popup
+        </NavLink>
+
+        <NavLink
+          to="/githubsearch"
+          className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300  text-center"
+        >
+          Guthub Search
         </NavLink>
         
       </div>

@@ -13,4 +13,5 @@ export default [
     route("/localstorage","routes/localstorage/LocalStorage.tsx"),
     route("/tabs","routes/tabs/TabsPage.tsx"),
     route("/modalpopup","routes/modalpopup/ModalPopup.jsx"),
+    route("/githubsearch","routes/githubsearch/GithubSearch.jsx"),
 ] satisfies RouteConfig;
