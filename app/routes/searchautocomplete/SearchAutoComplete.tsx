@@ -4,7 +4,6 @@ interface user {
   firstName: string;
 }
 
-
 const SearchAutoComplete = () => {
 
   const[loading, setLoading] = useState<Boolean>(false);

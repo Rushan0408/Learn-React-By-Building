@@ -99,6 +99,13 @@ export default function Home() {
         >
           Search Auto Complete
         </NavLink>
+
+        <NavLink
+          to="/tictactoe"
+          className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300  text-center"
+        >
+          Tic Tac Toe
+        </NavLink>
         
       </div>
     </div>
