@@ -34,7 +34,7 @@ const GithubSearch = () => {
     return (
         <div className="flex flex-col items-center mt-4">
             <div className="h-10 w-1/2 flex flex-row justify-center mb-10">
-                <input className="border w-1/2 pl-2" value={value} onChange={(e) => setValue(e.target.value)} onClick={()=>handle()} ></input>
+                <input type="text" placeholder="Search Github Username..." className="border w-1/2 pl-2" value={value} onChange={(e) => setValue(e.target.value)} onClick={()=>handle()} ></input>
                 <button onClick={() => setUsername(value)} className="border p-1 cursor-pointer">Search</button>
             </div>
             <div className="border w-2/3 flex flex-col items-center pb-4">

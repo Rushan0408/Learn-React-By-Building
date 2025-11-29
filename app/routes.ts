@@ -14,4 +14,5 @@ export default [
     route("/tabs","routes/tabs/TabsPage.tsx"),
     route("/modalpopup","routes/modalpopup/ModalPopup.jsx"),
     route("/githubsearch","routes/githubsearch/GithubSearch.jsx"),
+    route("/searchautocomplete","routes/searchautocomplete/SearchAutoComplete.tsx")
 ] satisfies RouteConfig;
