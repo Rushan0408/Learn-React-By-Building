@@ -16,5 +16,6 @@ export default [
     route("/githubsearch","routes/githubsearch/GithubSearch.jsx"),
     route("/searchautocomplete","routes/searchautocomplete/SearchAutoComplete.tsx"),
     route("/tictactoe","routes/tictactoe/TicTacToe.tsx"),
-    route("/featureflag","routes/featureflag/Home.tsx")
+    route("/featureflag","routes/featureflag/Home.tsx"),
+    route("/outsideclick","routes/customhooks/useOutsideClickTest.tsx")
 ] satisfies RouteConfig;
