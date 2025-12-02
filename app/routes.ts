@@ -15,5 +15,6 @@ export default [
     route("/modalpopup","routes/modalpopup/ModalPopup.jsx"),
     route("/githubsearch","routes/githubsearch/GithubSearch.jsx"),
     route("/searchautocomplete","routes/searchautocomplete/SearchAutoComplete.tsx"),
-    route("/tictactoe","routes/tictactoe/TicTacToe.tsx")
+    route("/tictactoe","routes/tictactoe/TicTacToe.tsx"),
+    route("/featureflag","routes/featureflag/Home.tsx")
 ] satisfies RouteConfig;

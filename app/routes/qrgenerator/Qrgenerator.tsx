@@ -11,9 +11,9 @@ const Qrgenerator = () => {
 
   return (
     <div className="flex flex-col justify-center items-center min-h-screen">
-        <h1 className="text-5xl"> QR code Generator </h1>
+        <h1 className="text-5xl mb-4"> QR code Generator </h1>
         <div>
-          <input className="border" 
+          <input className="border mb-4" 
             type="text" 
             placeholder="Enter text" 
             value={value} 

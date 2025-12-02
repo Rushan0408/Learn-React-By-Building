@@ -106,6 +106,13 @@ export default function Home() {
         >
           Tic Tac Toe
         </NavLink>
+
+        <NavLink
+          to="/featureflag"
+          className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300  text-center"
+        >
+          FeatureFlags
+        </NavLink>
         
       </div>
     </div>
