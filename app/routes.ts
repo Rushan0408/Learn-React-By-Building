@@ -19,4 +19,5 @@ export default [
     route("/featureflag","routes/featureflag/Home.tsx"),
     route("/outsideclick","routes/customhooks/useOutsideClickTest.tsx"),
     route("/windowresize","routes/customhooks/useWindowResizeTest.tsx"),
+    route("/scrolltotop","routes/scrolltotopandbottom/ScrollToTopAndBottom.tsx")
 ] satisfies RouteConfig;
