@@ -17,5 +17,6 @@ export default [
     route("/searchautocomplete","routes/searchautocomplete/SearchAutoComplete.tsx"),
     route("/tictactoe","routes/tictactoe/TicTacToe.tsx"),
     route("/featureflag","routes/featureflag/Home.tsx"),
-    route("/outsideclick","routes/customhooks/useOutsideClickTest.tsx")
+    route("/outsideclick","routes/customhooks/useOutsideClickTest.tsx"),
+    route("/windowresize","routes/customhooks/useWindowResizeTest.tsx"),
 ] satisfies RouteConfig;

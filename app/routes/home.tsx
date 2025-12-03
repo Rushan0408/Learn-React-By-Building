@@ -120,6 +120,13 @@ export default function Home() {
         >
           Outside Click
         </NavLink>
+
+        <NavLink
+          to="/windowresize"
+          className="px-8 py-4 border border-gray-700 rounded-lg hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300  text-center"
+        >
+          Window Resize
+        </NavLink>
         
       </div>
     </div>
